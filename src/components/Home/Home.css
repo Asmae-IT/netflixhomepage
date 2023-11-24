@@ -1,0 +1,389 @@
+.home {
+  background-color: black;
+}
+/********* Section 1 ********/
+.home .Line1 {
+  margin-top: 0px;
+  height: 8px;
+  background-color: rgb(29, 29, 29);
+}
+.home .section1 {
+  background-color: black;
+  margin-top: -17px;
+}
+.home .section1 .container {
+  background-color: transparent;
+  padding-top: 190px;
+  padding-bottom: 300px;
+}
+
+.home .section1 .container .row h4 {
+  line-height: 30px;
+}
+
+.home .section1 img {
+  margin-top: -120px;
+  z-index: 1;
+  position: absolute;
+}
+.home .section1 .container .row .video-tv {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 75px;
+  z-index: 0;
+}
+/********* Section 2 ********/
+.home .Line2 {
+  margin-top: -1px;
+  height: 8px;
+  background-color: rgb(29, 29, 29);
+}
+.home .section2 .container {
+  background-color: transparent;
+  padding-top: 190px;
+  padding-bottom: 150px;
+}
+.home .section2 .container .img-device {
+  margin-top: -80px;
+}
+.home .section2 .container .row h1 {
+  line-height: 63px;
+}
+.home .section2 .container .row h4 {
+  line-height: 38px;
+}
+
+.home .section2 .container .row .box {
+  background-color: black;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-left: 110px;
+  margin-top: -130px;
+  position: relative;
+  width: 330px;
+}
+.home .section2 .container .row .box p {
+  margin-top: 19px;
+  margin-left: 10px;
+}
+
+.home .section2 .container .row .box .download-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: -150px;
+  margin-top: 25px;
+  margin-left: 60px;
+}
+/********* Section 3 ********/
+.home .Line3 {
+  margin-top: -1px;
+  height: 8px;
+  background-color: rgb(29, 29, 29);
+}
+.home .section3 .container {
+  background-color: transparent;
+  padding-top: 180px;
+  padding-bottom: 230px;
+}
+.home .section3 .container .row h4 {
+  line-height: 33px;
+}
+.home .section3 .container .row img {
+  margin-top: -80px;
+  margin-left: -50px;
+  z-index: 1;
+  position: absolute;
+}
+.home .section3 .container .row .video-devices {
+  margin-top: -40px;
+  margin-left: 58px;
+  width: 63%;
+  z-index: 0;
+  position: absolute;
+}
+/********* Section 4 ********/
+.home .Line4 {
+  margin-top: -1px;
+  height: 8px;
+  background-color: rgb(29, 29, 29);
+}
+.home .section4 .container {
+  background-color: transparent;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.home .section4 .container .row .text-right {
+  margin-top: 100px;
+}
+.home .section4 .container .row .text-right h1 {
+  text-align: left;
+}
+.home .section4 .container .row h4 {
+  line-height: 35px;
+  text-align: left;
+}
+/********* Section 5 ********/
+.home .Line5 {
+  margin-top: -1px;
+  height: 8px;
+  background-color: rgb(29, 29, 29);
+}
+.home .section5 .container {
+  background-color: transparent;
+  padding-top: 80px;
+}
+.home .section5 .container h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.home .section5 .container #accordion .card {
+  background-color: rgb(57, 54, 54);
+}
+.home .section5 .container #accordion .card-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.home .section5 .container #accordion .card-header h5::after {
+  float: right;
+  content: "+";
+  font-size: 40px;
+}
+
+.home .section5 .container #accordion .card .card-header:hover {
+  background-color: rgb(67, 67, 67);
+}
+
+/********* Section 6 ********/
+.home .Line6 {
+  margin-top: -60px;
+  height: 8px;
+  background-color: rgb(29, 29, 29);
+}
+/*********** Media Queries ************/
+
+@media (max-width: 1200px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: -45px;
+    margin-left: 64px;
+  }
+  .home .section2 .container .col-sm-6:nth-child(1) {
+    margin-top: 50px;
+  }
+  .home .section2 .container .row .box {
+    margin-left: 90px;
+    width: 300px;
+  }
+  .home .section2 .container .row .box .download-icon {
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+  .home .section3 .container .row .col-sm-6:nth-child(2) {
+    margin-top: 20px;
+  }
+  .home .section3 .container .row .video-devices {
+    margin-left: 40px;
+    margin-top: -47px;
+  }
+}
+
+@media (max-width: 992px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: -20px;
+    margin-left: 48px;
+  }
+  .home .section1 img {
+    margin-top: -70px;
+  }
+  .home .section2 .col-sm-6 .img-poster {
+    height: 80px;
+  }
+  .home .section2 .container .row .box {
+    margin-left: 50px;
+    margin-top: -70px;
+    width: 250px;
+  }
+  .home .section2 .container .row .box .download-icon {
+    margin-left: 20px;
+    width: 40px;
+  }
+  .home .section2 .container .row .box p {
+    font-size: 12px;
+  }
+  .home .section3 .container .row .col-sm-6:nth-child(2) {
+    margin-top: 50px;
+  }
+  .home .section3 .container .row .video-devices {
+    margin-top: -50px;
+    margin-left: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  .home .section1 img {
+    margin-top: -10px;
+  }
+  .home .section2 .col-sm-6 .img-poster {
+    width: 40px;
+    height: 70px;
+  }
+  .home .section2 .container .row .box {
+    margin-top: -50px;
+    width: 180px;
+  }
+  .home .section2 .container .row .box .download-icon {
+    margin-left: 15px;
+    width: 30px;
+  }
+  .home .section2 .container .row .box p {
+    font-size: 10px;
+  }
+  .home .section3 .container .row .col-sm-6:nth-child(2) {
+    margin-top: 50px;
+  }
+  .home .section3 .container .row .video-devices {
+    margin-top: -60px;
+    margin-left: 1px;
+  }
+}
+
+@media (max-width: 577px) {
+  .home .section1 .container .row .col-sm:nth-child(1) {
+    margin-top: -50px;
+  }
+  .home .section1 img {
+    margin-top: 50px;
+  }
+  .home .section1 .container .row .video-tv {
+    margin-top: 135px;
+    margin-left: 72px;
+  }
+  .home .section2 {
+    margin-top: 110px;
+  }
+  .home .section2 .col-sm-6 .img-poster {
+    width: 60px;
+    height: 80px;
+  }
+  .home .section2 .container .row .box {
+    margin-left: 120px;
+    width: 280px;
+    margin-bottom: 60px;
+  }
+  .home .section2 .container .row .box .download-icon {
+    margin-left: 40px;
+    width: 40px;
+  }
+  .home .section2 .container .row .box p {
+    font-size: 14px;
+  }
+  .home .section3 .container .row .col-sm-6:nth-child(2) {
+    margin-top: 120px;
+    margin-bottom: 130px;
+  }
+  .home .section3 .container .row .video-devices {
+    margin-top: -35px;
+    margin-left: 41px;
+  }
+}
+@media (max-width: 517px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: 119px;
+    margin-left: 64px;
+  }
+
+  .home .section2 .container .row .box {
+    margin-left: 100px;
+    width: 270px;
+    margin-bottom: 60px;
+  }
+  .home .section3 .container .row .video-devices {
+    margin-top: -45px;
+  }
+}
+@media (max-width: 495px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: 120px;
+    margin-left: 62px;
+  }
+
+  .home .section2 .container .row .box .download-icon {
+    width: 25px;
+    margin-left: 20px;
+  }
+  .home .section2 .container .row .box {
+    width: 250px;
+  }
+  .home .section3 .container .row .video-devices {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 455px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: 115px;
+    margin-left: 55px;
+  }
+
+  .home .section2 .container .row .box {
+    margin-left: 90px;
+    width: 230px;
+  }
+}
+@media (max-width: 420px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: 107px;
+    margin-left: 50px;
+  }
+  .home .section2 .container .row .box {
+    margin-left: 70px;
+    width: 230px;
+  }
+  .home .section3 .container .row .video-devices {
+    margin-top: -55px;
+    margin-left: 17px;
+  }
+}
+
+@media (max-width: 361px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: 97px;
+    margin-left: 17px;
+  }
+  .home .section1 img {
+    margin-left: -20px;
+    width: 470px;
+  }
+}
+
+@media (max-width: 321px) {
+  .home .section1 .container .row .video-tv {
+    margin-top: 95px;
+    margin-left: 10px;
+  }
+  .home .section1 img {
+    margin-left: -20px;
+    width: 500px;
+  }
+  .home .section2 .container .row .box {
+    margin-left: 40px;
+    width: 220px;
+  }
+  .home .section2 .container .row .box .download-icon {
+    width: 20px;
+    margin-left: 10px;
+  }
+  .home .section3 .col-sm-6:nth-child(2) img {
+    margin-left: -12px;
+  }
+  .home .section3 .container .row .video-devices {
+    margin-left: 45px;
+  }
+}

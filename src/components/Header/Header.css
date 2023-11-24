@@ -1,0 +1,45 @@
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.542), rgba(0, 0, 0, 0.57)),
+    url("./../../assets/Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin-top: 346px;
+  box-shadow: inset 0px 20px 50px 30px #00000094;
+}
+.text-header {
+  margin-top: -470px;
+  padding-top: 250px;
+  line-height: 39px;
+}
+.text-header p {
+  font-size: 22px;
+}
+.form-control {
+  background-color: rgba(25, 25, 25, 0.812);
+  border-color: 1px solid rgb(209, 209, 209);
+}
+
+.form-control::placeholder {
+  color: rgb(141, 141, 141);
+  font-weight: bolder;
+}
+.form-control:focus {
+  background-color: rgba(25, 25, 25, 0.812);
+}
+.btn-email {
+  margin-top: -2px;
+  background-color: rgb(227, 0, 0);
+}
+.btn-email:focus {
+  background-color: rgb(227, 0, 0);
+}
+@media (max-width: 576px) {
+  .form-inline {
+    display: inline-flex;
+  }
+  .btn-email {
+    margin-top: 10px;
+  }
+}

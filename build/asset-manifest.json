@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CodeAlpha_NetflixClone/static/css/main.82fcb490.css",
+    "main.js": "/CodeAlpha_NetflixClone/static/js/main.845df444.js",
+    "static/js/787.8561c1f6.chunk.js": "/CodeAlpha_NetflixClone/static/js/787.8561c1f6.chunk.js",
+    "static/media/video-devices.mp4": "/CodeAlpha_NetflixClone/static/media/video-devices.589a03c2f0a414643ddf.mp4",
+    "static/media/video-tv.mp4": "/CodeAlpha_NetflixClone/static/media/video-tv.1932708d2885063efcfd.mp4",
+    "static/media/kids.png": "/CodeAlpha_NetflixClone/static/media/kids.c7a886907aae47c643ab.png",
+    "static/media/device-pile.png": "/CodeAlpha_NetflixClone/static/media/device-pile.8e6539e8bfc6937a0648.png",
+    "static/media/Background.jpg": "/CodeAlpha_NetflixClone/static/media/Background.26f78c23ee54bc84085f.jpg",
+    "static/media/mobile-0819.jpg": "/CodeAlpha_NetflixClone/static/media/mobile-0819.063578d5b6d5ab4155ec.jpg",
+    "static/media/NetflixLogo.png": "/CodeAlpha_NetflixClone/static/media/NetflixLogo.01636f87ecf37eed7369.png",
+    "static/media/download-icon.gif": "/CodeAlpha_NetflixClone/static/media/download-icon.1ce72c891b52e6f68f2f.gif",
+    "static/media/boxshot.png": "/CodeAlpha_NetflixClone/static/media/boxshot.347f4ee3bafbdfe71112.png",
+    "static/media/tv.png": "/CodeAlpha_NetflixClone/static/media/tv.0049bc70babc1f94cf88.png",
+    "index.html": "/CodeAlpha_NetflixClone/index.html",
+    "main.82fcb490.css.map": "/CodeAlpha_NetflixClone/static/css/main.82fcb490.css.map",
+    "main.845df444.js.map": "/CodeAlpha_NetflixClone/static/js/main.845df444.js.map",
+    "787.8561c1f6.chunk.js.map": "/CodeAlpha_NetflixClone/static/js/787.8561c1f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82fcb490.css",
+    "static/js/main.845df444.js"
+  ]
+}

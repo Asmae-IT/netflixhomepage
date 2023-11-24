@@ -1,0 +1,24 @@
+.container-fluid {
+  background-color: black;
+  margin-top: -16px;
+}
+.container-fluid .container {
+  background-color: transparent;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.container-fluid .container .row a {
+  color: rgb(164, 164, 164);
+  font-size: 16px;
+  text-decoration: underline;
+}
+.container-fluid .container .row .form-group {
+  width: 150px;
+}
+.container-fluid .container .row .form-group .form-control {
+  background-color: rgba(25, 24, 24, 0.862);
+  color: white;
+}
+.container-fluid .container .row p {
+  color: rgb(170, 170, 170);
+}
